@@ -13,6 +13,14 @@ services:
       - key: N8N_BASIC_AUTH_PASSWORD
         value: Djkevink@2025
       - key: WEBHOOK_URL
-        value: https://n8n-mathew.onrender.com
+        value: https://automatewithkevin.online
       - key: GENERIC_TIMEZONE
         value: Asia/Kolkata
+      - key: N8N_HOST
+        value: automatewithkevin.online
+      - key: N8N_PORT
+        value: 8080
+      - key: N8N_PROTOCOL
+        value: https
+      - key: N8N_OAUTH2_ALLOW_HTTP_REDIRECT_URL
+        value: true
